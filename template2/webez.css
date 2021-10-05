@@ -1,0 +1,15 @@
+.banner {  font-family: "Arial", "新細明體"; font-size: 25px; font-weight: normal; color: #FFFFFF; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt}
+a:link {  font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #FFFFFF; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt}
+a:visited {  font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #FFFFFF; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt}
+a:hover {  font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #FFCC00; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt}
+.linktable {  font-size: 9pt; text-decoration: none; text-align: center}
+.content {  font-family: "新細明體", "Arial"; font-size: 9pt; color: #333333; letter-spacing: 1pt; word-spacing: 2pt; padding-left: 15px; padding-top: 15px; padding-right: 10px}
+.mainpagetitle { font-family: "Arial", "新細明體"; font-size: 12pt; font-weight: bold; color: #000000; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt}
+.title { font-family: "Arial", "新細明體"; font-size: 11pt; font-weight: bold; color: #000000; text-decoration: none; word-spacing: 1pt}
+.text { font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: normal; color: #000000; text-decoration: none; word-spacing: 1pt; line-height: 19px}
+.sublinktable { font-size: 9pt; text-decoration: none ; padding-right: 10px; padding-left: 10px}
+.copyright { font-family: "Arial", "新細明體"; font-size: 10px; font-weight: normal; color: #666666; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt }
+a.sub:link {  font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #000000; text-decoration: none}
+a.sub:visited { font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #666666; text-decoration: none; letter-spacing: 1pt; word-spacing: 2pt }
+a.sub:hover {  font-family: "Arial", "新細明體"; font-size: 9pt; font-weight: bold; color: #15688A; text-decoration: underline}
+.link-bg { font-size: 9pt; text-decoration: none }
