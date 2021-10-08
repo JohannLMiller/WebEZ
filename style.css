@@ -7,8 +7,8 @@ body{
 
 
 .topnavbar{
-    background-color: rgb(20, 20, 20);
-    /* box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); */
+    background-color: black;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -33,8 +33,8 @@ body{
     transition: 0.3s ease;
 }
 .nav-items a:hover{
-    background-color: rgb(173, 32, 91);
-    color: #000;
+    background-color: green;
+    color: white;
     transition: 0.3s ease;
 }
 
@@ -48,8 +48,8 @@ display: none;
 .topnavbar label{
     padding: 10px 20px;
     float: right;
-    font-size: 2rem;
-    color: #F2F2F2;
+    font-size: medium;
+    color: whitesmoke;
     display: none;
     cursor: pointer;
     transition: 0.3s ease;
@@ -68,7 +68,7 @@ display: none;
     color: #FFF;
 } */
 a:link {color:white;}
-a:visited {color:aqua;}
+a:visited {color:whitesmoke;}
 a:hover {color:red;}
 a:active {color:yellow;}
 
@@ -98,6 +98,7 @@ a:active {color:yellow;}
      /* display the links on click on menu-icon */
     input:checked ~ .nav-items{
         max-height: 100%;
+        
     }
     
    
