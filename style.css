@@ -1,12 +1,17 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
+    border: green dashed;
 }
+
+
+
 .topnavbar{
-    background-color: #333;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(20, 20, 20);
+    /* box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); */
     
 }
+
 .topnavbar ul{
     padding: 0;
     margin: 0;
@@ -28,7 +33,7 @@ body{
     transition: 0.3s ease;
 }
 .nav-items a:hover{
-    background-color: #ddd;
+    background-color: rgb(173, 32, 91);
     color: #000;
     transition: 0.3s ease;
 }
@@ -53,22 +58,21 @@ display: none;
 
 
 .topnavbar label:hover{
-    background-color: #DDD;
+    background-color: rgb(250, 248, 248);
     color: #000;
     transition: 0.3s ease;
 
 }
-.active{
-    background-color: #61977e;
+/* .active{
+    background-color: #317555;
     color: #FFF;
-    
-}
+} */
 
 
 
 
 /* media queries */
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
     /* display one link in one row 讓menu顯示成一直列*/
     .topnavbar ul{
         display: block;
@@ -90,9 +94,8 @@ display: none;
      /* display the links on click on menu-icon */
     input:checked ~ .nav-items{
         max-height: 100%;
-
     }
-
+    
    
 
 
