@@ -1,7 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    border: green dashed;
+   
 }
 
 
@@ -67,6 +67,10 @@ display: none;
     background-color: #317555;
     color: #FFF;
 } */
+a:link {color:white;}
+a:visited {color:aqua;}
+a:hover {color:red;}
+a:active {color:yellow;}
 
 
 
