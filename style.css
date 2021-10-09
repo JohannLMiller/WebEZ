@@ -1,9 +1,17 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-   
+    font-size:medium;
 }
 
+
+.logo{
+    float:left;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+
+}
 
 
 .topnavbar{
@@ -75,6 +83,7 @@ a:active {color:yellow;}
 
 
 
+
 /* media queries */
 @media screen and (max-width:600px){
     /* display one link in one row 讓menu顯示成一直列*/
@@ -84,6 +93,10 @@ a:active {color:yellow;}
     /* display menu icon就是那三橫線*/
     .topnavbar label{
         display: inline-flex;
+        /* set three lines color */
+        color:grey;
+        font-size: 1.6em;
+        
     }
     /* Hovering effect on link */
     .topnavbar a{
@@ -94,6 +107,7 @@ a:active {color:yellow;}
     /* hide the links until the icon menu is clicked */
     .nav-items{
         max-height: 0;
+        animation: ;
     }
      /* display the links on click on menu-icon */
     input:checked ~ .nav-items{
