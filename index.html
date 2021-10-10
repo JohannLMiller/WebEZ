@@ -20,12 +20,12 @@
         <span class="logo">Johann</span><label id="menu-icon" for="menu-icon-input"> &#9776;</label>
         <div class="nav-items">
             <ul>
-                <li><a href="#" >home</a></li>
-                <li><a href="#" >Services</a></li>
-                <li><a href="#" >Projects</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Contacts</a></li>
-
+                
+                <li><a href="#swift" >SWIFT</a></li>
+                <li><a href="#JavaScript" >JavaScript</a></li>
+                <li><a href="#Python" >Python</a></li>
+                <li><a href="#Java" >Java</a></li>
+                <li><a href="#C#" >C#</a></li>
 
             </ul>
 
@@ -35,25 +35,25 @@
 
     <div class="w3-container w3-green">
         <h2>Welcome to Johann's github page</h2>
-        <h6>this page use css RWD,fit your phone or PC
+        
     </div>
     
       <div class="w3-row-padding">
         <div class="w3-third">
-          <h2>SWIFT</h2>
+          <h2 id="swift">SWIFT</h2>
           <p>I use Xcode IDE programming by SWIFT to build iOS apps </p>
           <p>there are some simple samples here to show AR and some other iOS apps.    </p>
-           <p> <video width="320"  controls>
+           <p> <video width="400"  controls>
                 <source src="videos/RP3Devee.MOV" type="video/mp4">
                 
               Your browser does not support the video tag.
               </video></p>
-            <p><video width="320"  controls>
+            <p><video width="400"  controls>
                 <source src="videos/magic_paper.mov" type="video/mp4">
                
               Your browser does not support the video tag.
               </video></p>
-            <p><video width="320"  controls>
+            <p><video width="400"  controls>
                 <source src="videos/Xyz.mov" type="video/mp4">
               
               Your browser does not support the video tag.
@@ -61,29 +61,62 @@
             
 
         </div>
-      
         <div class="w3-third">
-            <h2>Python</h2>
-            <p>Okay, I am totally new to python.
+            <h2 id="JavaScript">JavaScript</h2>
+            <p> <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Big</button>
+                <button onclick="makeSmall()">Small</button>
+                <button onclick="makeNormal()">Normal</button></p>
+                <br>
+               <p> <video id="video1" width="400">
+                  <source src="videos/python_pygame.mov" type="video/mp4">
+                  
+                  Your browser does not support HTML video.
+                </video></p>
+                <script> 
+                    var myVideo = document.getElementById("video1"); 
+                    
+                    function playPause() { 
+                      if (myVideo.paused) 
+                        myVideo.play(); 
+                      else 
+                        myVideo.pause(); 
+                    } 
+                    
+                    function makeBig() { 
+                        myVideo.width = 450; 
+                    } 
+                    
+                    function makeSmall() { 
+                        myVideo.width = 250; 
+                    } 
+                    
+                    function makeNormal() { 
+                        myVideo.width = 400; 
+                    } 
+                    </script> 
+        </div>
+        <div class="w3-third">
+            <h2 id="Python">Python</h2>
+            <p>OOkay, I am totally new to python.
               Here I try to make a shooting game by pygame.</p>
-            <p>  <video width="320"  controls>
+            <p>  <video width="400"  controls>
                   <source src="videos/python_pygame.mov" type="video/mp4">
                 Your browser does not support the video tag.
               </video></p>
           </div>
         <div class="w3-third">
-          <h2>Java</h2>
-          <p>I use eclipse + MySQL.
-            hmmmm, I don't know what should I program. Maybe a small game?
+          <h2 id="Java">Java</h2>
+          <p>coming soon!
+            
            </p> 
         </div>
       
+       
       
         <div class="w3-third">
-            <h2>C#</h2>
-            <p>Long time I used ASP, not .net, just classic ASP
-                I didn't use visual studio since I used MacBook. Well, I try so many programmer languages, so why not again?
-
+            <h2 id="C#">C#</h2>
+            <p>coming soon!
         </div>
         
         
