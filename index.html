@@ -37,8 +37,24 @@
         <div class="w3-third">
           <h2>SWIFT</h2>
           <p>I use Xcode IDE programming by SWIFT to build iOS apps </p>
-          <p>there are some simple samples here to show AR and some other iOS apps.    
-          </p>
+          <p>there are some simple samples here to show AR and some other iOS apps.    </p>
+            <video width="320"  controls>
+                <source src="videos/RP3Devee.MOV" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video>
+            <video width="320"  controls>
+                <source src="videos/magic_paper.mov" type="video/mp4">
+               
+              Your browser does not support the video tag.
+              </video>
+            <video width="320"  controls>
+                <source src="videos/Xyz.mov" type="video/mp4">
+              
+              Your browser does not support the video tag.
+            </video>
+            
+
         </div>
       
         <div class="w3-third">
@@ -52,8 +68,12 @@
         <div class="w3-third">
           <h2>Python</h2>
           <p>OOkay, I am totally new to python.
-
             Here I try to make a shooting game by pygame.
+            <video width="320"  controls>
+                <source src="videos/python_pygame.mov" type="video/mp4">
+              
+              Your browser does not support the video tag.
+            </video>
         </div>
       
         <div class="w3-third">
@@ -64,8 +84,38 @@
         </div>
         <div class="w3-third">
             <h2>JavaScript</h2>
-            <p><script src="script.js"></script>
-
+            <p> <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Big</button>
+                <button onclick="makeSmall()">Small</button>
+                <button onclick="makeNormal()">Normal</button>
+                <br><br>
+                <video id="video1" width="320">
+                  <source src="videos/python_pygame.mov" type="video/mp4">
+                  
+                  Your browser does not support HTML video.
+                </video>
+                <script> 
+                    var myVideo = document.getElementById("video1"); 
+                    
+                    function playPause() { 
+                      if (myVideo.paused) 
+                        myVideo.play(); 
+                      else 
+                        myVideo.pause(); 
+                    } 
+                    
+                    function makeBig() { 
+                        myVideo.width = 350; 
+                    } 
+                    
+                    function makeSmall() { 
+                        myVideo.width = 250; 
+                    } 
+                    
+                    function makeNormal() { 
+                        myVideo.width = 320; 
+                    } 
+                    </script> 
         </div>
         
     </div>
