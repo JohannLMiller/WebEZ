@@ -1,127 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johann Navibar</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="w3.css">
-    <style>
-        video {
-          max-width: 100%;
-          height: auto;
-        }
-        </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johann Navibar</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="w3.css" />
+  <style>
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="topnavbar">
-        
-        <input type="checkbox" id="menu-icon-input">
-        <span class="logo">Johann</span><label id="menu-icon" for="menu-icon-input"> &#9776;</label>
-        <div class="nav-items">
-            <ul>
-                
-                <li><a href="#swift" >SWIFT</a></li>
-                <li><a href="#JavaScript" >JavaScript</a></li>
-                <li><a href="#Python" >Python</a></li>
-                <li><a href="#Java" >Java</a></li>
-                <li><a href="#C#" >C#</a></li>
+  <div class="topnavbar">
+    <input type="checkbox" id="menu-icon-input" />
+    <span class="logo">Johann</span><label id="menu-icon" for="menu-icon-input"> &#9776;</label>
+    <div class="nav-items">
+      <ul>
+        <li><a href="#swift">SWIFT</a></li>
+        <li><a href="#JavaScript">JavaScript</a></li>
+        <li><a href="#Python">Python</a></li>
+        <li><a href="#Java">Java</a></li>
+        <li><a href="#C#">C#</a></li>
+      </ul>
+    </div>
+  </div>
 
-            </ul>
+  <div class="w3-container w3-green">
+    <h2>Welcome to Johann's github page</h2>
+  </div>
 
-
-        </div>
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h2 id="swift">SWIFT</h2>
+      <p>I use Xcode IDE programming by SWIFT to build iOS apps</p>
+      <p>
+        there are some simple samples here to show AR and some other iOS apps.
+      </p>
+      <p>
+        <br />Evee RP
+        <video controls preload="metadata">
+          <source src="videos/RP3Devee.MOV" type="video/mp4" />
+          <source src="resources/myvideo.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+        <br />NewsPaper autoload video<video controls preload="metadata">
+          <source src="videos/magic_paper.mov" type="video/mp4" />
+          <source src="resources/myvideo.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </p>
     </div>
 
-    <div class="w3-container w3-green">
-        <h2>Welcome to Johann's github page</h2>
-        
-    </div>
-    
-      <div class="w3-row-padding">
-        <div class="w3-third">
-          <h2 id="swift">SWIFT</h2>
-          <p>I use Xcode IDE programming by SWIFT to build iOS apps </p>
-          <p>there are some simple samples here to show AR and some other iOS apps.    </p>
-           <p><br>Evee RP <video  controls preload="metadata">
-                <source src="videos/RP3Devee.MOV" type="video/mp4">
-                <source src="resources/myvideo.webm" type="video/webm">
-              Your browser does not support the video tag.
-              </video>
-            <br>NewsPaper autoload video<video controls preload="metadata">
-                <source src="videos/magic_paper.mov" type="video/mp4">
-                <source src="resources/myvideo.webm" type="video/webm">
-              Your browser does not support the video tag.
-              </video>
-            <br>Music playbr <br>
-            <video  controls preload="metadata">
-                <source src="videos/Xyz.mov" type="video/mp4">
-                <source src="resources/myvideo.webm" type="video/webm">
-              Your browser does not support the video tag.
-            </video></p>
-            
+    <div class="w3-third">
+      <h2 id="JavaScript">JavaScript</h2>
+      <br />
+      JavaScript front-end
+      <p>
+        <button onclick="playPause()">Play/Pause</button>
 
-        </div>
-        <div class="w3-third">
-            <h2 id="JavaScript">JavaScript</h2><br>
-            JavaScript front-end 
-            <p> <button onclick="playPause()">Play/Pause</button> 
-               
-                <button onclick="makeSmall()">Small</button>
-                <button onclick="makeNormal()">Normal</button>
-                <button onclick="makeBig()">Big</button>
-              </p>
-                <br>
-               <p> <video id="video1" preload="metadata">
-                  <source src="videos/python_pygame.mov" type="video/mp4">
-                  <source src="resources/myvideo.webm" type="video/webm">
-                  Your browser does not support HTML video.
-                </video></p>
-                <script> 
-                    var myVideo = document.getElementById("video1"); 
-                    
-                    function playPause() { 
-                      if (myVideo.paused) 
-                        myVideo.play(); 
-                      else 
-                        myVideo.pause(); 
-                    } 
-                    
-                    function makeBig() { 
-                        myVideo.width = 500; 
-                    } 
-                    
-                    function makeSmall() { 
-                        myVideo.width = 250; 
-                    } 
-                    
-                    function makeNormal() { 
-                        myVideo.width = 400; 
-                    } 
-                    </script> 
-        </div>
-        <div class="w3-third">
-            <h2 id="Python">Python</h2>
-            <p>
-              Here I try to make a shooting game by pygame.</p>
-            <p>  <video  controls preload="metadata">
-                  <source src="videos/python_pygame.mov" type="video/mp4">
-                  <source src="resources/myvideo.webm" type="video/webm">
-                Your browser does not support the video tag.
-              </video></p>
-          </div>   
-        <div class="w3-third">
-            <h2 id="C#">C#</h2>
-            <p>coming soon! </p>
-            <p>use vistual studio community</p>
-            <p>Xamarin works with it_</p>
-        </div>
-        <div class="w3-third">
-          <h2 id="Java">Java</h2>
-          <p>coming soon!</p> 
-        </div>       
-        
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <button onclick="makeBig()">Big</button>
+      </p>
+      <br />
+      <p>
+        <video id="video1" preload="metadata">
+          <source src="videos/python_pygame.mov" type="video/mp4" />
+          <source src="resources/myvideo.webm" type="video/webm" />
+          Your browser does not support HTML video.
+        </video>
+      </p>
+      <script>
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+          if (myVideo.paused) myVideo.play();
+          else myVideo.pause();
+        }
+
+        function makeBig() {
+          myVideo.width = 500;
+        }
+
+        function makeSmall() {
+          myVideo.width = 250;
+        }
+
+        function makeNormal() {
+          myVideo.width = 400;
+        }
+      </script>
     </div>
-    
+    <div class="w3-third">
+      <h2 id="Python">Python</h2>
+      <p>Here I try to make a shooting game by pygame.</p>
+      <p>
+        <video controls preload="metadata">
+          <source src="videos/python_pygame.mov" type="video/mp4" />
+          <source src="resources/myvideo.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </p>
+    </div>
+    <div class="w3-third">
+      <h2 id="C#">C#</h2>
+      <p>coming soon!</p>
+      <p>use vistual studio community</p>
+      <p>Xamarin works with it_</p>
+    </div>
+    <div class="w3-third">
+      <h2 id="Java">Java</h2>
+      <p>coming soon!</p>
+    </div>
+  </div>
 </body>
+
 </html>
