@@ -1,121 +1,108 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:medium;
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
 }
 
-
-.logo{
-    float:left;
-    color: white;
-    padding-top: 1rem;
-    padding-left: 1rem;
-
-
+.logo {
+  float: left;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
-
-.topnavbar{
-    background-color: black;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
-    
+.topnavbar {
+  background-color: black;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
-.topnavbar ul{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    list-style-type: none; 
+.topnavbar ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
 }
-.topnavbar a{
-    display: inline-block;
-    text-decoration:none ;
-    color: #f2f2f2;
-    padding: 19px 20px;
+.topnavbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 19px 20px;
+}
 
+.nav-items {
+  text-align: center;
+  overflow: hidden;
+  clear: both;
+  transition: 0.3s ease;
 }
-
-.nav-items{
-    text-align: center;
-    overflow: hidden;
-    clear: both;
-    transition: 0.3s ease;
-}
-.nav-items a:hover{
-    background-color: green;
-    color: white;
-    transition: 0.3s ease;
+.nav-items a:hover {
+  background-color: green;
+  color: white;
+  transition: 0.3s ease;
 }
 
 /* hide the checkbox */
-input#menu-icon-input{
-display: none;
-
+input#menu-icon-input {
+  display: none;
 }
 
 /* hide the menu icon in large screen bigger then 800px width */
-.topnavbar label{
-    padding: 10px 20px;
-    float: right;
-    font-size: medium;
-    color: whitesmoke;
-    display: none;
-    cursor: pointer;
-    transition: 0.3s ease;
+.topnavbar label {
+  padding: 10px 20px;
+  float: right;
+  font-size: medium;
+  color: whitesmoke;
+  display: none;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-
-
-.topnavbar label:hover{
-    background-color: rgb(250, 248, 248);
-    color: #000;
-    transition: 0.3s ease;
-
+.topnavbar label:hover {
+  background-color: rgb(250, 248, 248);
+  color: #000;
+  transition: 0.3s ease;
 }
 /* .active{
     background-color: #317555;
     color: #FFF;
 } */
-a:link {color:white;}
-a:visited {color:whitesmoke;}
-a:hover {color:red;}
-a:active {color:yellow;}
-
-
-
-
+a:link {
+  color: white;
+}
+a:visited {
+  color: whitesmoke;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
 
 /* media queries */
-@media screen and (max-width:600px){
-    /* display one link in one row 讓menu顯示成一直列*/
-    .topnavbar ul{
-        display: block;
-    }
-    /* display menu icon就是那三橫線*/
-    .topnavbar label{
-        display: inline-flex;
-        /* set three lines color */
-        color:grey;
-        font-size: 1.6em;
-        
-    }
-    /* Hovering effect on link */
-    .topnavbar a{
-        display: block;
-    }
+@media screen and (max-width: 600px) {
+  /* display one link in one row 讓menu顯示成一直列*/
+  .topnavbar ul {
+    display: block;
+  }
+  /* display menu icon就是那三橫線*/
+  .topnavbar label {
+    display: inline-flex;
+    /* set three lines color */
+    color: grey;
+    font-size: 1.6em;
+  }
+  /* Hovering effect on link */
+  .topnavbar a {
+    display: block;
+  }
 
-
-    /* hide the links until the icon menu is clicked */
-    .nav-items{
-        max-height: 0;
-        animation: ;
-    }
-     /* display the links on click on menu-icon */
-    input:checked ~ .nav-items{
-        max-height: 100%;
-        
-    }
-    
-   
-
-
+  /* hide the links until the icon menu is clicked */
+  .nav-items {
+    max-height: 0;
+    animation: ;
+  }
+  /* display the links on click on menu-icon */
+  input:checked ~ .nav-items {
+    max-height: 100%;
+  }
 }
